@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+}
+@font-face {
+    font-family:'idroid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #84E1AD;
+}
+header {
+    background-image: linear-gradient(to top, #37C374, #299257);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+header > p {
+    text-align: center;
+}
+nav {
+    text-align: left;
+    padding-left:30px;
+}
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+nav > :hover {
+    background-color: rgba(0, 128, 0, 0.431);
+}
+
+main {
+    padding-top: 0;
+    position: absolute;
+    margin: 50px;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.322);
+    padding: 10px;
+    margin-top: 0;
+}
+section > h1{
+    font-family:'idroid';
+    color: #155934;
+}
+section > h2{
+    font-family:'idroid';
+    color: #155934;
+    background-image: linear-gradient(to right, #84e1aca9, white);
+}
+
+aside{
+    text-align: center;
+    padding: 10px;
+}
+p {
+    text-align: justify;
+}
+.video{
+    background-color: #1A5C38;
+}
+
+.aprender_mais{
+    background-color: #93f5bda9;
+    padding: 10px;
+}
+.aprender_mais > h3 {
+    background-color: #2FA866;
+    color: white;
+    margin-top: 0;
+}
+
+footer > p {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+}
